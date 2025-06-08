@@ -1,6 +1,6 @@
 # Guia de Instalação Local (Windows)
 
-Este guia detalha como instalar o framework PraisonAI em um ambiente Windows, permitindo que você comece a criar e executar seus próprios agentes de IA.
+Este guia detalha como instalar o framework PraisonAI em um ambiente Windows, permitindo que você comece a criar e executar seus próprios agentes de IA. Para instruções em outros sistemas operacionais consulte [[01_instalacao/01_instalacao_linux.md]] e [[01_instalacao/02_instalacao_macos.md]].
 
 ## Pré-requisitos
 
@@ -95,6 +95,7 @@ seu ambiente principal.
 
 Para testes com modelos locais ou de código aberto, como os fornecidos pelo **Ollama** ou
 **LM Studio**, defina `OPENAI_BASE_URL` apontando para o servidor local e especifique
+
 `OPENAI_MODEL_NAME` com o modelo desejado (por exemplo, `llama3:latest`).
 
 
@@ -108,6 +109,7 @@ import torch
 print(torch.cuda.is_available())
 ```
 Mantenha os drivers atualizados e considere quantizações (8/4 bits) para reduzir o uso de memória.
+
 
 ### 2. Para Desenvolvedores (Trabalhando com o Código Fonte)
 
@@ -208,6 +210,7 @@ praisonai --auto "Conte uma piada curta sobre programadores"
     *   **Causa:** Versões incompatíveis de pacotes.
     *   **Solução:** Use ambientes virtuais para isolar as dependências de cada projeto. Comandos como `pip freeze > requirements.txt` e `pip install -r requirements.txt` ajudam a gerenciar dependências.
 
+
 Com este guia, você deve ser capaz de instalar o PraisonAI em seu sistema Windows e começar sua jornada no desenvolvimento de agentes de IA!
 Veja [[../03_usando_praisonai/01_usando_com_python]].
 Para solucionar eventuais erros de execução ou instalação, consulte [[../08_contribuindo_e_desenvolvimento/02_debug_e_boas_praticas]].
@@ -217,3 +220,4 @@ Para solucionar eventuais erros de execução ou instalação, consulte [[../08_
 1. Revise os conceitos apresentados acima.
 2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
 3. Modifique algum parâmetro e observe os resultados.
+
