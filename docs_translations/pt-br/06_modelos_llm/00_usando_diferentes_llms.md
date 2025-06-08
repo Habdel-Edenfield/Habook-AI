@@ -154,3 +154,9 @@ Uma vez que o provedor está configurado através das variáveis de ambiente, vo
 
 A capacidade do PraisonAI de se integrar com uma ampla gama de LLMs é uma vantagem significativa, permitindo que você adapte seus agentes às melhores ferramentas de linguagem disponíveis para cada tarefa.
 Veja [[../03_usando_praisonai/01_usando_com_python]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

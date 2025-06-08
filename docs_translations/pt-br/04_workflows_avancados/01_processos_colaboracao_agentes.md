@@ -67,3 +67,9 @@ O `README.md` principal do PraisonAI ilustra vários desses padrões:
 
 Nos próximos tópicos deste módulo, detalharemos cada um desses padrões de workflow agêntico, mostrando como eles podem ser implementados ou conceitualizados dentro do PraisonAI, aproveitando os processos de colaboração que revisitamos aqui. Entender bem os processos sequencial, hierárquico e a flexibilidade dos workflows customizados é o primeiro passo para dominar essas técnicas avançadas.
 Veja [[../05_ferramentas/00_visao_geral_ferramentas]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

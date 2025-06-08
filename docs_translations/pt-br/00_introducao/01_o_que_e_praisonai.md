@@ -155,3 +155,9 @@ flowchart TB
 
 Este arquivo serve como uma introdução geral ao PraisonAI. Nos próximos tópicos, detalharemos cada um desses recursos e conceitos.
 Veja [[../02_conceitos_fundamentais/01_agentes]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

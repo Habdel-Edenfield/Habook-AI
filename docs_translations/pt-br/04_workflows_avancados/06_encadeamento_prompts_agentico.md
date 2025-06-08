@@ -173,3 +173,9 @@ O Encadeamento de Prompts Agêntico é uma técnica versátil e poderosa, fundam
 
 A seguir, exploraremos o padrão **Avaliador-Otimizador Agêntico (Agentic Evaluator Optimizer)**.
 Veja [[../05_ferramentas/00_visao_geral_ferramentas]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

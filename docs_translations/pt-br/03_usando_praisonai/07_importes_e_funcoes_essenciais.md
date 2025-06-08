@@ -94,3 +94,9 @@ logger.info(resultado)
 Este exemplo demonstra como importar as classes básicas e o logger para estruturar um fluxo simples com dois agentes.
 
 Veja [[../03_usando_praisonai/05_modelos_de_agentes]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

@@ -162,3 +162,9 @@ A escolha do processo correto depende da natureza do problema a ser resolvido. P
 
 O próximo conceito a ser explorado são as **Ferramentas (Tools)**, que dão aos agentes suas capacidades de interagir com o mundo.
 Veja [[../04_workflows_avancados/01_processos_colaboracao_agentes]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

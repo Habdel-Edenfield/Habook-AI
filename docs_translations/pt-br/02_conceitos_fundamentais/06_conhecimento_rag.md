@@ -135,3 +135,9 @@ A capacidade de integrar conhecimento externo através de RAG torna os agentes P
 
 Isso conclui nossa exploração dos conceitos fundamentais! A seguir, veremos como usar o PraisonAI na prática.
 Veja [[../05_ferramentas/00_visao_geral_ferramentas]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

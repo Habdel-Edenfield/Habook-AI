@@ -18,3 +18,9 @@ Além disso, o script `inc/config.py` possui a função `generate_config`, utili
 
 Conhecer essa estrutura ajuda a localizar facilmente onde adicionar novos agentes, ferramentas ou integrações.
 Veja [[../03_usando_praisonai/07_importes_e_funcoes_essenciais]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

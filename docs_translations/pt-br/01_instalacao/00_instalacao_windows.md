@@ -200,3 +200,9 @@ praisonai --auto "Conte uma piada curta sobre programadores"
 
 Com este guia, você deve ser capaz de instalar o PraisonAI em seu sistema Windows e começar sua jornada no desenvolvimento de agentes de IA!
 Veja [[../03_usando_praisonai/01_usando_com_python]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

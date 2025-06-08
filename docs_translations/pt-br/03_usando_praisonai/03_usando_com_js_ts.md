@@ -185,3 +185,9 @@ A versão JavaScript/TypeScript do PraisonAI visa espelhar a funcionalidade da v
 
 Esta introdução deve ajudá-lo a começar a usar o PraisonAI em seus projetos JavaScript e TypeScript. A exploração dos exemplos no repositório é altamente recomendada para entender melhor as capacidades e a API da versão JS/TS.
 Veja [[../04_workflows_avancados/03_workflow_orquestrador_trabalhador]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

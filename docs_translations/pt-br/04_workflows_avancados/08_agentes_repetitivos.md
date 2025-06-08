@@ -123,3 +123,9 @@ Os Agentes Repetitivos são um padrão essencial para automatizar tarefas que pr
 
 Com este tópico, concluímos a exploração dos principais padrões de Workflows Avançados ilustrados no PraisonAI!
 Veja [[../05_ferramentas/00_visao_geral_ferramentas]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

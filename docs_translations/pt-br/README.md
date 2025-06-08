@@ -44,3 +44,9 @@ Boa sorte e bons estudos!
 * **[Interface de Voz](04_workflows_avancados/16_interface_voz.md):** Permite conversar em tempo real com microfone e alto-falantes.
 * **[Interface de Chamada](04_workflows_avancados/17_interface_chamada.md):** Mostra como integrar o agente a ligações via Twilio.
 Veja [[../02_conceitos_fundamentais/06_conhecimento_rag]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

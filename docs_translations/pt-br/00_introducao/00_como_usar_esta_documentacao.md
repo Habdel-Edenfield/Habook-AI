@@ -42,3 +42,9 @@ Se encontrar erros, tiver sugestões ou dúvidas, sinta-se à vontade para abrir
 
 Aproveite os estudos!
 Veja [[../01_instalacao/00_instalacao_windows]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.
