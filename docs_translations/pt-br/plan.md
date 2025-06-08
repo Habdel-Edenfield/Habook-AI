@@ -20,6 +20,7 @@ Este arquivo resume os módulos já existentes na documentação em `docs/pt-br`
    - Catálogo de modelos de agentes disponíveis nos exemplos.
    - Configurações com YAML para definir agentes de forma declarativa.
    - Importações e funções essenciais para criação de agentes.
+   - Como funcionam os imports e gerenciamento de dependências (nova aula).
 5. **Workflows Avançados**
    - Colaboração entre agentes, roteamento, orquestração, modo autônomo, paralelização e encadeamento de prompts.
 6. **Ferramentas**
@@ -56,6 +57,7 @@ Este arquivo resume os módulos já existentes na documentação em `docs/pt-br`
 -  - (concluído) Mini AI Agents
 - Documentar a estrutura do código e exemplos de YAML (concluído)
 - (atualizado) Guia de instalação no Windows expandido com recomendações de 2024/2025.
+- (novo) Lição detalhada sobre funcionamento dos imports e dependências.
 
 - Revisar todos os módulos para incorporar novidades recentes (Python 3.11+, pipx, modelos locais com Ollama/LM Studio e otimizações de GPU). Seções dedicadas estão em [[01_instalacao/00_instalacao_windows#uso-de-gpu-e-tensorrt]] e [[06_modelos_llm/00_usando_diferentes_llms#desempenho-com-gpu-para-modelos-locais]].
 

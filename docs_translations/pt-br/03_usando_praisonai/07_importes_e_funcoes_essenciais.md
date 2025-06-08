@@ -100,3 +100,4 @@ Veja [[../03_usando_praisonai/05_modelos_de_agentes]].
 1. Revise os conceitos apresentados acima.
 2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
 3. Modifique algum parâmetro e observe os resultados.
+4. Leia [[08_como_funcionam_imports.md]] para um entendimento mais profundo sobre imports e dependências.
