@@ -33,8 +33,10 @@ PraisonAI oferece um vasto conjunto de ferramentas prontas para uso. Embora uma 
               - "tavily_search"       # Ferramenta de busca na web (exemplo)
               - "web_page_reader"   # Ferramenta para ler conteúdo de URLs
               # - "nome_outra_ferramenta_embutida"
-            # ... outras configurações ...
+              # ... outras configurações ...
         ```
+
+> [!TIP] Consulte [Crawl4AI](./01_crawl4ai.md) para um exemplo de ferramenta de busca na web e detalhes de configuração.
     *   **Em Python:** Ao instanciar um `Agent`, você passa uma lista de objetos de ferramenta ou nomes de ferramentas registradas para o parâmetro `tools`.
         ```python
         from praisonaiagents import Agent
