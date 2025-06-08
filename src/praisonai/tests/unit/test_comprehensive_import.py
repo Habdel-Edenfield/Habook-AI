@@ -16,17 +16,16 @@ def test_original_failing_import():
     try:
         from praisonaiagents.agents.agents import Agent, Task, PraisonAIAgents
         print('✅ SUCCESS: from praisonaiagents.agents.agents import Agent, Task, PraisonAIAgents')
-        return True
     except ImportError as e:
         print(f'❌ ERROR: {e}')
         import traceback
         traceback.print_exc()
-        return False
+        assert False, f"ImportError: {e}"
     except Exception as e:
         print(f'❌ UNEXPECTED ERROR: {e}')
         import traceback
         traceback.print_exc()
-        return False
+        assert False, f"Unexpected error: {e}"
 
 def test_memory_direct_import():
     """Test direct Memory import"""
@@ -34,17 +33,16 @@ def test_memory_direct_import():
     try:
         from praisonaiagents.memory import Memory
         print('✅ SUCCESS: from praisonaiagents.memory import Memory')
-        return True
     except ImportError as e:
         print(f'❌ ERROR: {e}')
         import traceback
         traceback.print_exc()
-        return False
+        assert False, f"ImportError: {e}"
     except Exception as e:
         print(f'❌ UNEXPECTED ERROR: {e}')
         import traceback
         traceback.print_exc()
-        return False
+        assert False, f"Unexpected error: {e}"
 
 def test_memory_from_package_root():
     """Test Memory import from package root"""
@@ -52,17 +50,16 @@ def test_memory_from_package_root():
     try:
         from praisonaiagents import Memory
         print('✅ SUCCESS: from praisonaiagents import Memory')
-        return True
     except ImportError as e:
         print(f'❌ ERROR: {e}')
         import traceback
         traceback.print_exc()
-        return False
+        assert False, f"ImportError: {e}"
     except Exception as e:
         print(f'❌ UNEXPECTED ERROR: {e}')
         import traceback
         traceback.print_exc()
-        return False
+        assert False, f"Unexpected error: {e}"
 
 def test_session_import():
     """Test Session import which depends on Memory"""
@@ -70,40 +67,39 @@ def test_session_import():
     try:
         from praisonaiagents.session import Session
         print('✅ SUCCESS: from praisonaiagents.session import Session')
-        return True
     except ImportError as e:
         print(f'❌ ERROR: {e}')
         import traceback
         traceback.print_exc()
-        return False
+        assert False, f"ImportError: {e}"
     except Exception as e:
         print(f'❌ UNEXPECTED ERROR: {e}')
         import traceback
         traceback.print_exc()
-        return False
+        assert False, f"Unexpected error: {e}"
 
 def test_memory_instantiation():
     """Test that Memory can be instantiated without errors"""
     print("\n=== Testing Memory Instantiation ===")
     try:
         from praisonaiagents.memory import Memory
-        
+
         # Test with minimal config (no external dependencies)
         config = {"provider": "none"}
         memory = Memory(config=config)
         print('✅ SUCCESS: Memory instance created with provider="none"')
-        
+
         # Test basic methods don't fail immediately
         memory.store_short_term("test content", metadata={"test": True})
         results = memory.search_short_term("test", limit=1)
         print('✅ SUCCESS: Basic memory operations work')
-        
-        return True
+
+        assert results is not None
     except Exception as e:
         print(f'❌ ERROR: {e}')
         import traceback
         traceback.print_exc()
-        return False
+        assert False, str(e)
 
 def run_all_tests():
     """Run all tests and report results"""
@@ -119,15 +115,24 @@ def run_all_tests():
     
     results = []
     for test in tests:
-        results.append(test())
-    
+        try:
+            test()
+            results.append(True)
+        except AssertionError:
+            results.append(False)
+        except Exception as e:
+            print(f'❌ UNEXPECTED ERROR: {e}')
+            import traceback
+            traceback.print_exc()
+            results.append(False)
+
     print(f"\n📊 Test Results: {sum(results)}/{len(results)} tests passed")
-    
+
     if all(results):
         print("🎉 ALL TESTS PASSED! The Memory import issue has been resolved.")
     else:
         print("❌ Some tests failed. The issue may not be fully resolved.")
-    
+
     return all(results)
 
 if __name__ == "__main__":
