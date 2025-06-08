@@ -36,6 +36,16 @@ pipx install praisonai
 ```
 Caso encontre erros de permissão, garanta que a pasta `~/Library/Python/3.x/bin` esteja no `PATH`.
 
+
+## Uso de GPU (Metal e TensorRT)
+
+Em Macs com Apple Silicon, o PyTorch 2.2+ utiliza o backend MPS (Metal) automaticamente. Instale com:
+```bash
+pip install torch torchvision torchaudio
+```
+Se usar GPUs NVIDIA via Docker ou outro hardware, instale o PyTorch com CUDA e avalie o TensorRT para melhor desempenho.
+Quantizações também reduzem o consumo de memória ao rodar modelos locais.
+
 ### Teste Rápido
 
 Execute:
