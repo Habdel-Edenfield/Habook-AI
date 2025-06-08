@@ -150,3 +150,10 @@ Um agente inicial poderia pegar a entrada do usuário (o código a ser analisado
 *   **Potencial Uso de Ferramentas:** Embora não detalhado aqui, ferramentas como `code_interpreter` (para executar e testar código) ou `file_write_tool` (para salvar scripts) seriam adições valiosas para tornar os agentes mais autônomos e úteis. O PraisonAI menciona "Code Interpreter Agents" como um recurso.
 
 Este exemplo mostra como agentes podem ser aplicados a domínios técnicos como programação. A qualidade da explicação ou do código gerado dependerá muito da capacidade do LLM subjacente e da clareza dos prompts e instruções fornecidas aos agentes.
+Veja [[../04_workflows_avancados/10_code_interpreter_agents]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

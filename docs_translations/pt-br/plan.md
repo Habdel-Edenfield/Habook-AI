@@ -40,10 +40,11 @@ Este arquivo resume os módulos já existentes na documentação em `docs/pt-br`
 
 ## Pontos a Desenvolver
 
-- Adicionar instruções de instalação para Linux e macOS (pendente).
+
+- (concluído) Instruções de instalação para Linux e macOS.
 - Explorar exemplos mais detalhados de ferramentas e memórias avançadas.
-- Criar exercícios práticos adicionais para fixação dos conceitos.
-- Documentar integrações específicas com outros provedores de LLM (concluído para Gemini e Anthropic).
+- (concluído) Seções de **Exercícios** adicionadas ao final de cada módulo.
+- Documentar integrações específicas com outros provedores de LLM (ex.: Gemini, Anthropic).
 - Incluir guia de depuração e boas práticas para resolução de problemas.
 - Padronizar links internos usando o formato `[[arquivo.md]]` para facilitar a navegação.
 - Criar seções para recursos ainda não documentados:
@@ -55,7 +56,10 @@ Este arquivo resume os módulos já existentes na documentação em `docs/pt-br`
 -  - (concluído) Mini AI Agents
 - Documentar a estrutura do código e exemplos de YAML (concluído)
 - (atualizado) Guia de instalação no Windows expandido com recomendações de 2024/2025.
-- Revisar todos os módulos para incorporar novidades recentes (Python 3.11+, pipx, modelos locais com Ollama/LM Studio e otimizações de GPU).
+
+- Revisar todos os módulos para incorporar novidades recentes (Python 3.11+, pipx, modelos locais com Ollama/LM Studio e otimizações de GPU). Seções dedicadas estão em [[01_instalacao/00_instalacao_windows#uso-de-gpu-e-tensorrt]] e [[06_modelos_llm/00_usando_diferentes_llms#desempenho-com-gpu-para-modelos-locais]].
+
 
 
 Este plano deve ser atualizado sempre que novos módulos ou seções forem criados.
+Veja [[README]].

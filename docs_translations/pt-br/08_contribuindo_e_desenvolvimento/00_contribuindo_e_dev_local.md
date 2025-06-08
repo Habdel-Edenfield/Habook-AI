@@ -172,3 +172,10 @@ O PraisonAI possui uma estrutura de testes abrangente, conforme detalhado em `sr
 **Antes de rodar testes reais, sempre leia o `TESTING_GUIDE.md` para entender os custos potenciais e a configuração necessária.**
 
 Seguindo estas diretrizes, você estará bem equipado para contribuir com o PraisonAI ou para explorá-lo e adaptá-lo às suas necessidades em um ambiente de desenvolvimento local.
+Veja [[../08_contribuindo_e_desenvolvimento/01_estrutura_do_codigo]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

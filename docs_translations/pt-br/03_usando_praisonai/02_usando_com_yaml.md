@@ -158,3 +158,10 @@ A pasta `examples/cookbooks/yaml/` no repositório PraisonAI é o melhor lugar p
 Analise esses exemplos para entender como estruturar seus próprios arquivos YAML para diferentes tipos de problemas e workflows.
 
 A seguir, veremos como interagir com o PraisonAI usando JavaScript e TypeScript.
+Veja [[../04_workflows_avancados/03_workflow_orquestrador_trabalhador]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

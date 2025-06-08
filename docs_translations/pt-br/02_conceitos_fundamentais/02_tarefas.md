@@ -107,3 +107,10 @@ O conceito de tarefas está ligado a:
 Ao definir tarefas claras e com resultados esperados bem descritos, você aumenta significativamente a chance de seus agentes PraisonAI alcançarem os objetivos desejados de forma eficaz.
 
 A seguir, exploraremos como os **Processos** gerenciam a execução e colaboração entre agentes e suas tarefas.
+Veja [[../04_workflows_avancados/02_workflow_roteamento_agentico]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

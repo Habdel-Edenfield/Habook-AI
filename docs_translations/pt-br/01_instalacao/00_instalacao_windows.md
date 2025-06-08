@@ -95,9 +95,21 @@ seu ambiente principal.
 
 Para testes com modelos locais ou de código aberto, como os fornecidos pelo **Ollama** ou
 **LM Studio**, defina `OPENAI_BASE_URL` apontando para o servidor local e especifique
-`OPENAI_MODEL_NAME` com o modelo desejado (por exemplo, `llama3:latest`). Se você dispõe
-de GPU, bibliotecas atualizadas como **PyTorch 2.2** e **TensorRT** ajudam a acelerar a
-inferência em 2025.
+
+`OPENAI_MODEL_NAME` com o modelo desejado (por exemplo, `llama3:latest`).
+
+
+## Uso de GPU e TensorRT
+
+Se você possui uma GPU NVIDIA, instale o PyTorch com suporte CUDA (ex.: `pip install torch --index-url https://download.pytorch.org/whl/cu121`).
+O TensorRT pode otimizar a inferência de modelos locais como os rodados no Ollama ou LM Studio. Baixe a versão compatível com seu driver e siga o guia da NVIDIA.
+Valide a instalação executando:
+```python
+import torch
+print(torch.cuda.is_available())
+```
+Mantenha os drivers atualizados e considere quantizações (8/4 bits) para reduzir o uso de memória.
+
 
 ### 2. Para Desenvolvedores (Trabalhando com o Código Fonte)
 
@@ -198,4 +210,14 @@ praisonai --auto "Conte uma piada curta sobre programadores"
     *   **Causa:** Versões incompatíveis de pacotes.
     *   **Solução:** Use ambientes virtuais para isolar as dependências de cada projeto. Comandos como `pip freeze > requirements.txt` e `pip install -r requirements.txt` ajudam a gerenciar dependências.
 
-Com este guia, você deve ser capaz de instalar o PraisonAI em seu sistema Windows e começar sua jornada no desenvolvimento de agentes de IA! Para entender melhor o funcionamento dos agentes, continue no módulo [[02_conceitos_fundamentais/01_agentes.md]].
+
+Com este guia, você deve ser capaz de instalar o PraisonAI em seu sistema Windows e começar sua jornada no desenvolvimento de agentes de IA!
+Veja [[../03_usando_praisonai/01_usando_com_python]].
+Para solucionar eventuais erros de execução ou instalação, consulte [[../08_contribuindo_e_desenvolvimento/02_debug_e_boas_praticas]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.
+

@@ -42,3 +42,10 @@ agent = Agent(
 - Consulte a página oficial para valores e políticas de uso.
 - Respeite os termos do serviço e as regras dos sites rastreados (como `robots.txt`).
 - Mantenha sua chave de API em local seguro e evite publicá-la em repositórios.
+Veja [[../02_conceitos_fundamentais/06_conhecimento_rag]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

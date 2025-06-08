@@ -142,3 +142,10 @@ O `analista_chefe_investimentos` produziria um relatório final, algo como:
 *   **Processo Sequencial:** As dependências entre tarefas guiam a ordem de execução.
 
 Este exemplo, mesmo conceitual, demonstra o poder do PraisonAI para orquestrar múltiplos agentes na resolução de um problema do mundo real. Ao explorar o notebook `stock_analysis_agents.ipynb` original, você poderá ver como esses conceitos são traduzidos em código e configurações YAML reais.
+Veja [[../04_workflows_avancados/01_processos_colaboracao_agentes]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

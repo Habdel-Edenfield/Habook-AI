@@ -138,3 +138,10 @@ roles:
 O padrão Orquestrador-Trabalhador Agêntico é uma abordagem robusta para resolver problemas complexos que se beneficiam de uma abordagem de "dividir para conquistar" com múltiplos especialistas.
 
 A seguir, exploraremos o **Agentic Autonomous Workflow**, onde os agentes têm mais autonomia para interagir com o ambiente.
+Veja [[../05_ferramentas/00_visao_geral_ferramentas]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

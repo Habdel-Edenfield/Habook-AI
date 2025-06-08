@@ -65,13 +65,43 @@ Groq fornece inferência de LLM em alta velocidade usando seus LPUs (Language Pr
 ### 4. Google Gemini
 
 *   **Pré-requisito:** Ter uma chave de API do Google AI Studio ou configurado para usar Gemini via Vertex AI no Google Cloud.
-*   **Variáveis de Ambiente:** A configuração exata pode variar (ex: `GOOGLE_API_KEY`). O PraisonAI pode ter um manipulador específico para Gemini.
-*   **Recomendação:** Consulte a documentação oficial do PraisonAI ou exemplos específicos sobre como integrar modelos Gemini, pois pode haver um fluxo de configuração um pouco diferente do padrão `OPENAI_*`.
+*   **Variável de Ambiente Principal:**
+    ```bash
+    export GOOGLE_API_KEY="sua_chave_do_google"
+    ```
+*   **(Opcional)** se utilizar serviços no Google Cloud, defina `GOOGLE_APPLICATION_CREDENTIALS` apontando para o arquivo JSON da service account.
+*   **Exemplo de Configuração no Agente:**
+    ```yaml
+    llm:
+      provider: google
+      model: "gemini-pro"
+    ```
+    ```python
+    agente_gemini = Agent(role="Assistente Gemini", llm="google/gemini-pro")
+    ```
+*   **Custos:** Há uma cota gratuita limitada. Após excedê-la, o Gemini Pro custa em torno de **US$0,0025** por 1k tokens de entrada e **US$0,0075** por 1k tokens de saída (valores de 2024). Consulte o painel do Google AI para preços atualizados.
 
-### 5. Outros Modelos (Anthropic Claude, Cohere, etc.)
+### 5. Anthropic (Claude)
+
+*   **Variável de Ambiente Principal:**
+    ```bash
+    export ANTHROPIC_API_KEY="sua_chave_da_anthropic"
+    ```
+*   **Exemplo de Configuração no Agente:**
+    ```yaml
+    llm:
+      provider: anthropic
+      model: "claude-3-sonnet-20240229"
+    ```
+    ```python
+    agente_claude = Agent(role="Assistente Claude", llm="anthropic/claude-3-sonnet-20240229")
+    ```
+*   **Custos:** Os modelos Claude 3 variam de preço. O Claude 3 Opus, por exemplo, custa cerca de **US$15** por milhão de tokens de entrada e **US$75** por milhão de tokens de saída. Veja [anthropic.com/pricing](https://www.anthropic.com/pricing) para valores atualizados.
+
+### 6. Outros Modelos (Cohere, DeepSeek, etc.)
 
 PraisonAI visa suportar uma ampla gama de modelos. A configuração para cada um pode envolver:
-*   Variáveis de ambiente específicas (ex: `ANTHROPIC_API_KEY`).
+*   Variáveis de ambiente específicas (ex: `COHERE_API_KEY`, `DEEPSEEK_API_KEY`).
 *   Uso de URLs base específicas se eles expõem uma API compatível com OpenAI.
 *   Manipuladores (handlers) ou clientes específicos dentro do PraisonAI para esses modelos.
 
@@ -145,6 +175,10 @@ Uma vez que o provedor está configurado através das variáveis de ambiente, vo
     ```
     *A API Python para configurar LLMs específicos pode ser bastante rica. Consulte os exemplos em `examples/python/models/` e a documentação da API `praisonaiagents`.*
 
+
+## Desempenho com GPU para Modelos Locais
+
+Ao executar modelos via Ollama ou outros servidores locais, use uma GPU para reduzir a latência. Instale o PyTorch com CUDA e, se possível, TensorRT para otimizar a inferência. Ajustar quantização para 8 ou 4 bits pode diminuir o consumo de memória, mantendo boa qualidade.
 ## Considerações
 
 *   **Compatibilidade de Recursos:** Nem todos os LLMs suportam todos os recursos da mesma forma (ex: "function calling"/"tool using", multimodalidade, tamanho da janela de contexto). Escolha o modelo também com base nos recursos que seus agentes precisam.
@@ -153,3 +187,10 @@ Uma vez que o provedor está configurado através das variáveis de ambiente, vo
 *   **Nomes dos Modelos:** Os nomes exatos dos modelos (`gpt-3.5-turbo`, `llama3:latest`, `mixtral-8x7b-32768`, etc.) devem corresponder ao que o provedor espera.
 
 A capacidade do PraisonAI de se integrar com uma ampla gama de LLMs é uma vantagem significativa, permitindo que você adapte seus agentes às melhores ferramentas de linguagem disponíveis para cada tarefa.
+Veja [[../03_usando_praisonai/01_usando_com_python]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

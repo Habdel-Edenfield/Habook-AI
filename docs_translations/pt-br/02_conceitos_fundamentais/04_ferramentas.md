@@ -112,3 +112,10 @@ O PraisonAI gerencia esse fluxo de interação entre o LLM e as ferramentas.
 Dominar o uso e a criação de ferramentas é essencial para construir agentes PraisonAI verdadeiramente poderosos e capazes de resolver problemas do mundo real.
 
 Em seguida, veremos como a **Memória** permite que os agentes mantenham o contexto e aprendam com interações passadas.
+Veja [[../05_ferramentas/00_visao_geral_ferramentas]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

@@ -13,3 +13,10 @@ agent.start("Tell me a joke")
 ```
 
 Use callbacks para registro, métricas ou integrações extras.
+Veja [[../05_ferramentas/00_visao_geral_ferramentas]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

@@ -44,3 +44,10 @@ praisonai caminho/do/arquivo.yaml
 ```
 
 Isso carregará as configurações e iniciará o fluxo definido.
+Veja [[../04_workflows_avancados/05_paralelizacao_agentica]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

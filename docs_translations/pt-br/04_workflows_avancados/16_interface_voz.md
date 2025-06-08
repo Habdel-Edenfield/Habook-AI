@@ -29,3 +29,10 @@ python3 -m praisonai realtime
 ## Vídeo
 
 [Realtime Voice Interface](https://www.youtube.com/watch?v=frRHfevTCSw)
+Veja [[../04_workflows_avancados/15_interfaces_interativas]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

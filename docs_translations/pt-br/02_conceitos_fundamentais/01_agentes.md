@@ -100,3 +100,10 @@ A ideia de agentes vem de campos como a Inteligência Artificial Distribuída (D
 O PraisonAI abstrai muitos desses detalhes complexos, mas entender os fundamentos pode ajudar a projetar agentes e sistemas de agentes mais eficazes.
 
 No próximo tópico, veremos como as **Tarefas (Tasks)** se relacionam com os Agentes.
+Veja [[../03_usando_praisonai/04_criando_seu_primeiro_agente]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

@@ -30,3 +30,10 @@ praisonai --call --public
 ## Vídeo
 
 [Call Interface](https://www.youtube.com/watch?v=m1cwrUG2iAk)
+Veja [[../04_workflows_avancados/16_interface_voz]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

@@ -43,3 +43,11 @@ Abra um terminal nesse diretório e execute o arquivo desejado com `python nome_
 ## 5. Como tiro outras dúvidas ou reporto problemas?
 Consulte o repositório no GitHub e abra uma *issue* descrevendo o problema ou a sugestão. Se preferir discutir em português, sinta-se à vontade.
 
+Veja [[../01_instalacao/00_instalacao_windows]].
+Para mais dicas de solução de problemas, leia [[../08_contribuindo_e_desenvolvimento/02_debug_e_boas_praticas]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

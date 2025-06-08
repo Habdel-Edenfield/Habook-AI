@@ -9,6 +9,9 @@ Navegue pelos módulos à esquerda para começar sua jornada de aprendizado. Cad
 *   **Introdução:** Visão geral do PraisonAI e desta documentação.
 *   **Metodologia de Aprendizado:** Orientações científicas para estudar com eficiência.
 *   **Instalação:** Como instalar o PraisonAI em seu ambiente.
+    * [Windows](01_instalacao/00_instalacao_windows.md)
+    * [Linux](01_instalacao/01_instalacao_linux.md)
+    * [macOS](01_instalacao/02_instalacao_macos.md)
 *   **Conceitos Fundamentais:** Os blocos de construção do PraisonAI.
 *   **Usando o PraisonAI:** Guias práticos para Python, YAML e JavaScript/TypeScript.
 *   **Guia Rápido: Criando Seu Primeiro Agente:** Passo a passo para colocar um agente em funcionamento.
@@ -29,6 +32,7 @@ Navegue pelos módulos à esquerda para começar sua jornada de aprendizado. Cad
 *   **Exemplos Práticos:** Estudos de caso detalhados.
 *   **Contribuindo e Desenvolvimento:** Para quem quer ir além.
     *   **Entendendo a Estrutura do Código**
+    *   **Debug e Boas Práticas**
 *   **Dúvidas Frequentes:** Respostas rápidas para problemas comuns.
 
 Boa sorte e bons estudos!
@@ -40,3 +44,10 @@ Boa sorte e bons estudos!
 * **[[04_workflows_avancados/15_interfaces_interativas.md|Interfaces Interativas]]:** Introduz as interfaces gráficas (UI, Chat e Code) para demonstrar agentes.
 * **[Interface de Voz](04_workflows_avancados/16_interface_voz.md):** Permite conversar em tempo real com microfone e alto-falantes.
 * **[Interface de Chamada](04_workflows_avancados/17_interface_chamada.md):** Mostra como integrar o agente a ligações via Twilio.
+Veja [[../02_conceitos_fundamentais/06_conhecimento_rag]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

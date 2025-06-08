@@ -135,3 +135,10 @@ A implementação da paralelização no PraisonAI pode ser alcançada através d
 A Paralelização Agêntica é uma estratégia valiosa para otimizar a performance de workflows que envolvem múltiplas operações independentes. O suporte a `async` no PraisonAI e Python fornece uma base sólida para implementar este padrão.
 
 A seguir, exploraremos o **Encadeamento de Prompts Agêntico (Agentic Prompt Chaining)**.
+Veja [[../05_ferramentas/00_visao_geral_ferramentas]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.
