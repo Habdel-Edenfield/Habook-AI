@@ -79,10 +79,25 @@ Esta é a forma recomendada para a maioria dos usuários que desejam utilizar o 
 
 *   **`praisonai` (Pacote completo com CLI e modo "No Code"):**
     Se você quer a experiência completa, incluindo a interface de linha de comando (CLI) para executar arquivos YAML e o modo automático.
-    ```bash
+```bash
     pip install praisonai
-    ```
+```
     Este pacote geralmente inclui `praisonaiagents` como dependência.
+
+#### Recursos adicionais (2024/2025)
+
+As versões mais recentes do PraisonAI tiram proveito de aprimoramentos do **Python 3.11+**,
+portanto mantenha seu interpretador atualizado para ganhar desempenho e compatibilidade.
+
+Além do `pip`, considere usar **`pipx`** para instalar o `praisonai` de forma isolada
+(`pipx install praisonai`). Isso facilita o gerenciamento de versões da CLI sem poluir
+seu ambiente principal.
+
+Para testes com modelos locais ou de código aberto, como os fornecidos pelo **Ollama** ou
+**LM Studio**, defina `OPENAI_BASE_URL` apontando para o servidor local e especifique
+`OPENAI_MODEL_NAME` com o modelo desejado (por exemplo, `llama3:latest`). Se você dispõe
+de GPU, bibliotecas atualizadas como **PyTorch 2.2** e **TensorRT** ajudam a acelerar a
+inferência em 2025.
 
 ### 2. Para Desenvolvedores (Trabalhando com o Código Fonte)
 

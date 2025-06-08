@@ -49,6 +49,8 @@ Este arquivo resume os módulos já existentes na documentação em `docs/pt-br`
 -  - (concluído) Callback Agents
 -  - (concluído) Mini AI Agents
 - Documentar a estrutura do código e exemplos de YAML (concluído)
+- (atualizado) Guia de instalação no Windows expandido com recomendações de 2024/2025.
+- Revisar todos os módulos para incorporar novidades recentes (Python 3.11+, pipx, modelos locais com Ollama/LM Studio e otimizações de GPU).
 
 
 Este plano deve ser atualizado sempre que novos módulos ou seções forem criados.
