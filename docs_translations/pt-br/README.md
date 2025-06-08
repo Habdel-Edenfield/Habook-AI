@@ -29,6 +29,7 @@ Navegue pelos módulos à esquerda para começar sua jornada de aprendizado. Cad
     *   **Interface de Voz**
     *   **Interface de Chamada**
 *   **Ferramentas:** Utilizando e criando ferramentas.
+    *   **[[05_ferramentas/02_ferramentas_memorias_avancadas.md|Ferramentas e Memórias Avançadas]]**
 *   **Modelos LLM:** Integrando com diversos modelos de linguagem.
 *   **Exemplos Práticos:** Estudos de caso detalhados.
 *   **Contribuindo e Desenvolvimento:** Para quem quer ir além.

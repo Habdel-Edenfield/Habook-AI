@@ -46,7 +46,7 @@ Este arquivo resume os módulos já existentes na documentação em `docs/pt-br`
 - (atualizado) Guia de instalação no Windows expandido com recomendações de 2024/2025.
 - Padronizar links internos usando o formato `[[arquivo.md]]` para facilitar a navegação.
 - Incluir guia de depuração e boas práticas para resolução de problemas.
-- Explorar exemplos mais detalhados de ferramentas e memórias avançadas.
+- (concluído) Explorar exemplos mais detalhados de ferramentas e memórias avançadas.
 - Documentar integrações específicas com outros provedores de LLM (ex.: Gemini, Anthropic).
 
 ### Segundo Semestre de 2024
