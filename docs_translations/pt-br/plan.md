@@ -36,7 +36,7 @@ Este arquivo resume os módulos já existentes na documentação em `docs/pt-br`
 
 ## Pontos a Desenvolver
 
-- Adicionar instruções de instalação para Linux e macOS.
+- (concluído) Instruções de instalação para Linux e macOS.
 - Explorar exemplos mais detalhados de ferramentas e memórias avançadas.
 - Criar exercícios práticos adicionais para fixação dos conceitos.
 - Documentar integrações específicas com outros provedores de LLM (ex.: Gemini, Anthropic).

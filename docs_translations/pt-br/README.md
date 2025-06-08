@@ -9,6 +9,9 @@ Navegue pelos módulos à esquerda para começar sua jornada de aprendizado. Cad
 *   **Introdução:** Visão geral do PraisonAI e desta documentação.
 *   **Metodologia de Aprendizado:** Orientações científicas para estudar com eficiência.
 *   **Instalação:** Como instalar o PraisonAI em seu ambiente.
+    * [Windows](01_instalacao/00_instalacao_windows.md)
+    * [Linux](01_instalacao/01_instalacao_linux.md)
+    * [macOS](01_instalacao/02_instalacao_macos.md)
 *   **Conceitos Fundamentais:** Os blocos de construção do PraisonAI.
 *   **Usando o PraisonAI:** Guias práticos para Python, YAML e JavaScript/TypeScript.
 *   **Guia Rápido: Criando Seu Primeiro Agente:** Passo a passo para colocar um agente em funcionamento.
