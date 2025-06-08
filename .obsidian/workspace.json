@@ -1,0 +1,185 @@
+{
+  "main": {
+    "id": "daf199f90788169f",
+    "type": "split",
+    "children": [
+      {
+        "id": "53f1ede9277952a8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "43708799b797e934",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6e4426c99fbd8c01",
+    "type": "split",
+    "children": [
+      {
+        "id": "2b8b1718cd2d35e1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "83423561ed55b2e8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "b916a2e7d2ccd596",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "cc8e601757fb746b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a6151f409347ae63",
+    "type": "split",
+    "children": [
+      {
+        "id": "9cdc5d638265ce7e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0a6b0eab39e3888a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "ba1d936e931d0b5b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída"
+            }
+          },
+          {
+            "id": "2228689993cd80fc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "aaae33034793bb76",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "43708799b797e934",
+  "lastOpenFiles": [
+    "docs_translations/pt-br/01_instalacao/00_instalacao_windows.md",
+    "docs_translations/pt-br/05_ferramentas/02_ferramentas_memorias_avancadas.md",
+    "docs_translations/pt-br/03_usando_praisonai/08_como_funcionam_imports.md",
+    "docs_translations/pt-br/03_usando_praisonai/02_usando_com_yaml.md",
+    "docs_translations/pt-br/03_usando_praisonai/01_usando_com_python.md",
+    "docs_translations/pt-br/02_conceitos_fundamentais/06_conhecimento_rag.md",
+    "docs_translations/pt-br/02_conceitos_fundamentais/05_memoria.md",
+    "docs_translations/pt-br/02_conceitos_fundamentais/04_ferramentas.md",
+    "docs_translations/pt-br/02_conceitos_fundamentais/03_processos.md",
+    "docs_translations/pt-br/02_conceitos_fundamentais/02_tarefas.md",
+    "docs_translations/pt-br/02_conceitos_fundamentais/01_agentes.md",
+    "docs_translations/pt-br/01_instalacao/02_instalacao_macos.md",
+    "docs_translations/pt-br/01_instalacao/01_instalacao_linux.md",
+    "docs_translations/pt-br/00_introducao/00_como_usar_esta_documentacao.md",
+    "AGENTS.md",
+    "docs_translations/pt-br/00_introducao/03_metodologia_de_aprendizado.md",
+    "docs_translations/pt-br/00_introducao/02_filosofia_e_casos_de_uso.md",
+    "docs_translations/pt-br/00_introducao/01_o_que_e_praisonai.md"
+  ]
+}
