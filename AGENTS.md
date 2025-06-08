@@ -68,6 +68,9 @@ Use wiki‑style crosslinks (`[[path/to/file.md]]`) whenever you reference anoth
 lesson so navigation stays consistent in Obsidian. Installation guides for
 Windows, Linux and macOS must remain sincronizadas e conter as mesmas
 recomendações sobre Python 3.11+, `pipx` e modelos locais.
+Maintain the color groups in `.obsidian/graph.json` so each lesson module
+appears with a distinct color in the global graph. Update these groups whenever
+adding or renaming modules.
 
 
 
@@ -82,4 +85,5 @@ The documentation mentions interfaces (chat/code/voice/call) and integration wit
 - Keep sections concise and reference documentation paths.
 - Update the repository layout or testing commands if they change.
 - Add notes for new interfaces or tools as they are implemented.
+- Keep `.obsidian/graph.json` updated with color groups for each lesson module.
 
