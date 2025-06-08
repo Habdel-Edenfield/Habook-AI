@@ -111,8 +111,8 @@ Mem0 oferece armazenamento persistente de memórias e recursos opcionais de **gr
       agente_com_mem0 = Agent(
           role="Assistente Persistente",
           goal="Guardar e recuperar informações ao longo do tempo.",
-          memory=True,
-          long_term_memory_handler=mem0_handler,
+          memory=mem0_handler, # Passar a instância do manipulador Mem0 configurado aqui
+
       )
       ```
 
