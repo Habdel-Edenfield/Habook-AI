@@ -95,9 +95,19 @@ seu ambiente principal.
 
 Para testes com modelos locais ou de código aberto, como os fornecidos pelo **Ollama** ou
 **LM Studio**, defina `OPENAI_BASE_URL` apontando para o servidor local e especifique
-`OPENAI_MODEL_NAME` com o modelo desejado (por exemplo, `llama3:latest`). Se você dispõe
-de GPU, bibliotecas atualizadas como **PyTorch 2.2** e **TensorRT** ajudam a acelerar a
-inferência em 2025.
+`OPENAI_MODEL_NAME` com o modelo desejado (por exemplo, `llama3:latest`).
+
+
+## Uso de GPU e TensorRT
+
+Se você possui uma GPU NVIDIA, instale o PyTorch com suporte CUDA (ex.: `pip install torch --index-url https://download.pytorch.org/whl/cu121`).
+O TensorRT pode otimizar a inferência de modelos locais como os rodados no Ollama ou LM Studio. Baixe a versão compatível com seu driver e siga o guia da NVIDIA.
+Valide a instalação executando:
+```python
+import torch
+print(torch.cuda.is_available())
+```
+Mantenha os drivers atualizados e considere quantizações (8/4 bits) para reduzir o uso de memória.
 
 ### 2. Para Desenvolvedores (Trabalhando com o Código Fonte)
 

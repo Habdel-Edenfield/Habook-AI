@@ -175,6 +175,10 @@ Uma vez que o provedor está configurado através das variáveis de ambiente, vo
     ```
     *A API Python para configurar LLMs específicos pode ser bastante rica. Consulte os exemplos em `examples/python/models/` e a documentação da API `praisonaiagents`.*
 
+
+## Desempenho com GPU para Modelos Locais
+
+Ao executar modelos via Ollama ou outros servidores locais, use uma GPU para reduzir a latência. Instale o PyTorch com CUDA e, se possível, TensorRT para otimizar a inferência. Ajustar quantização para 8 ou 4 bits pode diminuir o consumo de memória, mantendo boa qualidade.
 ## Considerações
 
 *   **Compatibilidade de Recursos:** Nem todos os LLMs suportam todos os recursos da mesma forma (ex: "function calling"/"tool using", multimodalidade, tamanho da janela de contexto). Escolha o modelo também com base nos recursos que seus agentes precisam.

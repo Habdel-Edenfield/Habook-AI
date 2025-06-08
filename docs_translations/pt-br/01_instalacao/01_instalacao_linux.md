@@ -36,6 +36,17 @@ export OPENAI_MODEL_NAME=llama3:latest
 ```
 Assim a CLI utilizará o servidor Ollama/LM Studio.
 
+
+## Uso de GPU e TensorRT
+
+Se sua máquina possui uma GPU NVIDIA, instale o PyTorch com CUDA conforme as instruções em `https://pytorch.org`.
+Um exemplo:
+```bash
+pip install torch --index-url https://download.pytorch.org/whl/cu121
+```
+Para acelerar modelos locais (Ollama, LM Studio), instale também o TensorRT compatível com seus drivers e verifique com `nvidia-smi` se a placa está ativa.
+Quantizações 8/4 bits ajudam a economizar memória durante a inferência.
+
 ### Uso Básico
 
 Depois da instalação, teste no terminal:
