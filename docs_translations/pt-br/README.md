@@ -32,3 +32,11 @@ Navegue pelos módulos à esquerda para começar sua jornada de aprendizado. Cad
 *   **Dúvidas Frequentes:** Respostas rápidas para problemas comuns.
 
 Boa sorte e bons estudos!
+## Conteúdo Adicional
+
+* **[Apresentação para Discord](../../Discord.md):** Resumo do projeto para compartilhar no servidor OpenTibiaBR.
+* **[Crawl4AI](05_ferramentas/01_crawl4ai.md):** Guia para usar a ferramenta de web crawling com seus agentes.
+* **[Conhecimento e RAG](02_conceitos_fundamentais/06_conhecimento_rag.md):** Explica como armazenar conhecimento e criar agentes que consultam PDFs.
+* **[Interfaces Interativas](04_workflows_avancados/15_interfaces_interativas.md):** Introduz as interfaces gráficas (UI, Chat e Code) para demonstrar agentes.
+* **[Interface de Voz](04_workflows_avancados/16_interface_voz.md):** Permite conversar em tempo real com microfone e alto-falantes.
+* **[Interface de Chamada](04_workflows_avancados/17_interface_chamada.md):** Mostra como integrar o agente a ligações via Twilio.
