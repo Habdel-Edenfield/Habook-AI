@@ -116,3 +116,9 @@ O Workflow Autônomo Agêntico é uma das áreas mais excitantes e desafiadoras 
 
 A seguir, veremos o padrão de **Paralelização Agêntica (Agentic Parallelization)**.
 Veja [[../05_ferramentas/01_crawl4ai]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

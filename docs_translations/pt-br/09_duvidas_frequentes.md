@@ -44,3 +44,9 @@ Abra um terminal nesse diretório e execute o arquivo desejado com `python nome_
 Consulte o repositório no GitHub e abra uma *issue* descrevendo o problema ou a sugestão. Se preferir discutir em português, sinta-se à vontade.
 
 Veja [[../01_instalacao/00_instalacao_windows]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

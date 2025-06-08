@@ -32,3 +32,9 @@ Após dominar esta metodologia, avance para o módulo de **Instalação** e siga
 
 Bom estudo!
 Veja [[../03_usando_praisonai/04_criando_seu_primeiro_agente]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

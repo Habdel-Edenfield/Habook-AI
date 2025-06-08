@@ -149,3 +149,9 @@ Se surgirem problemas durante os testes, consulte a seção [Dúvidas Frequentes
 
 No próximo tópico, veremos como usar o PraisonAI de forma "No-Code" ou "Low-Code" através de arquivos de configuração YAML. Para um resumo rápido dos campos disponíveis, consulte [Configurações com YAML](./06_configuracoes_yaml.md).
 Veja [[../04_workflows_avancados/01_processos_colaboracao_agentes]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

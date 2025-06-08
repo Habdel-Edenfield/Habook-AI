@@ -45,3 +45,9 @@ praisonai --auto "Gere um resumo sobre PraisonAI"
 Se tudo correr bem, a resposta aparecerá no terminal. Para desenvolvimento, você também pode clonar o repositório e instalar em modo editável com `pip` ou `uv`.
 
 Veja [[../03_usando_praisonai/01_usando_com_python]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

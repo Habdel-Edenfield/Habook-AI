@@ -139,3 +139,9 @@ O PraisonAI facilita esse processo, seja usando suas ferramentas embutidas ou pe
 
 A capacidade de estender agentes com ferramentas customizadas é o que permite adaptar o PraisonAI a praticamente qualquer domínio ou caso de uso específico, tornando-o uma plataforma verdadeiramente versátil para a construção de aplicações de IA.
 Veja [[../02_conceitos_fundamentais/06_conhecimento_rag]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

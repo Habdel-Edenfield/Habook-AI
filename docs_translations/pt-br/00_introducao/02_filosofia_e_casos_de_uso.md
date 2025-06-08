@@ -46,3 +46,9 @@ A flexibilidade do PraisonAI permite sua aplicação em uma ampla variedade de c
 
 Estes são apenas alguns exemplos. A natureza modular e extensível do PraisonAI permite que ele seja adaptado para muitos outros domínios e desafios. O limite é, em grande parte, a criatividade e a necessidade do desenvolvedor.
 Veja [[../07_exemplos_praticos/01_exemplo_analise_de_acoes]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.

@@ -38,7 +38,7 @@ Este arquivo resume os módulos já existentes na documentação em `docs/pt-br`
 
 - (concluído) Instruções de instalação para Linux e macOS.
 - Explorar exemplos mais detalhados de ferramentas e memórias avançadas.
-- Criar exercícios práticos adicionais para fixação dos conceitos.
+- (concluído) Seções de **Exercícios** adicionadas ao final de cada módulo.
 - Documentar integrações específicas com outros provedores de LLM (ex.: Gemini, Anthropic).
 - Incluir guia de depuração e boas práticas para resolução de problemas.
 - Criar seções para recursos ainda não documentados:

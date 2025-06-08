@@ -107,3 +107,9 @@ O Roteamento Agêntico é uma técnica poderosa para construir sistemas de IA ma
 
 A seguir, exploraremos o padrão **Agentic Orchestrator Worker**.
 Veja [[../05_ferramentas/00_visao_geral_ferramentas]].
+
+## Exercícios
+
+1. Revise os conceitos apresentados acima.
+2. No terminal, navegue até `examples` e execute um dos scripts relacionados.
+3. Modifique algum parâmetro e observe os resultados.
