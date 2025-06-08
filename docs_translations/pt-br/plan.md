@@ -20,7 +20,7 @@ Este arquivo resume os módulos já existentes na documentação em `docs/pt-br`
    - Catálogo de modelos de agentes disponíveis nos exemplos.
    - Configurações com YAML para definir agentes de forma declarativa.
    - Importações e funções essenciais para criação de agentes.
-   - Como funcionam os imports e gerenciamento de dependências (nova aula).
+   - Como funcionam os imports e gerenciamento de dependências – aula dedicada a importação global versus seletiva, extras opcionais e boas práticas para organizar os módulos. Veja [[03_usando_praisonai/08_como_funcionam_imports.md]].
 5. **Workflows Avançados**
    - Colaboração entre agentes, roteamento, orquestração, modo autônomo, paralelização e encadeamento de prompts.
 6. **Ferramentas**
@@ -41,25 +41,28 @@ Este arquivo resume os módulos já existentes na documentação em `docs/pt-br`
 
 ## Pontos a Desenvolver
 
-
-- (concluído) Instruções de instalação para Linux e macOS.
-- Explorar exemplos mais detalhados de ferramentas e memórias avançadas.
-- (concluído) Seções de **Exercícios** adicionadas ao final de cada módulo.
-- Documentar integrações específicas com outros provedores de LLM (ex.: Gemini, Anthropic).
-- Incluir guia de depuração e boas práticas para resolução de problemas.
-- Padronizar links internos usando o formato `[[arquivo.md]]` para facilitar a navegação.
-- Criar seções para recursos ainda não documentados:
--  - (concluído) Agentes Multimodais
--  - (concluído) Code Interpreter Agents
--  - (concluído) Math Agents
--  - (concluído) Agentes com Saída Estruturada
--  - (concluído) Callback Agents
--  - (concluído) Mini AI Agents
-- Documentar a estrutura do código e exemplos de YAML (concluído)
+### Primeiro Semestre de 2024
+- (novo) Lição detalhada sobre funcionamento dos imports e dependências ([[03_usando_praisonai/08_como_funcionam_imports.md]]).
 - (atualizado) Guia de instalação no Windows expandido com recomendações de 2024/2025.
-- (novo) Lição detalhada sobre funcionamento dos imports e dependências.
+- Padronizar links internos usando o formato `[[arquivo.md]]` para facilitar a navegação.
+- Incluir guia de depuração e boas práticas para resolução de problemas.
+- Explorar exemplos mais detalhados de ferramentas e memórias avançadas.
+- Documentar integrações específicas com outros provedores de LLM (ex.: Gemini, Anthropic).
 
+### Segundo Semestre de 2024
 - Revisar todos os módulos para incorporar novidades recentes (Python 3.11+, pipx, modelos locais com Ollama/LM Studio e otimizações de GPU). Seções dedicadas estão em [[01_instalacao/00_instalacao_windows#uso-de-gpu-e-tensorrt]] e [[06_modelos_llm/00_usando_diferentes_llms#desempenho-com-gpu-para-modelos-locais]].
+- Criar seções para recursos ainda não documentados:
+  - (concluído) Agentes Multimodais
+  - (concluído) Code Interpreter Agents
+  - (concluído) Math Agents
+  - (concluído) Agentes com Saída Estruturada
+  - (concluído) Callback Agents
+  - (concluído) Mini AI Agents
+- Documentar a estrutura do código e exemplos de YAML (concluído)
+
+### Concluído
+- Instruções de instalação para Linux e macOS.
+- Seções de **Exercícios** adicionadas ao final de cada módulo.
 
 
 
