@@ -21,6 +21,9 @@ Navegue pelos módulos à esquerda para começar sua jornada de aprendizado. Cad
     *   **Saída Estruturada**
     *   **Callback Agents**
     *   **Mini AI Agents**
+    *   **Interfaces Interativas**
+    *   **Interface de Voz**
+    *   **Interface de Chamada**
 *   **Ferramentas:** Utilizando e criando ferramentas.
 *   **Modelos LLM:** Integrando com diversos modelos de linguagem.
 *   **Exemplos Práticos:** Estudos de caso detalhados.
