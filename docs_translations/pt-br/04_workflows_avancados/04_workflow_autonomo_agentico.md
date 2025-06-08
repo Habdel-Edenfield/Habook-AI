@@ -115,3 +115,4 @@ Construir um workflow verdadeiramente autônomo no PraisonAI geralmente requer u
 O Workflow Autônomo Agêntico é uma das áreas mais excitantes e desafiadoras da IA com LLMs. O PraisonAI, ao fornecer uma plataforma flexível para definir agentes, ferramentas, memória e integrar-se com frameworks como AutoGen, oferece os componentes necessários para experimentar e construir esses sistemas.
 
 A seguir, veremos o padrão de **Paralelização Agêntica (Agentic Parallelization)**.
+Veja [[../05_ferramentas/01_crawl4ai]].

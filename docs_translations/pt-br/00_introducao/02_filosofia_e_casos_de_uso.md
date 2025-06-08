@@ -45,3 +45,4 @@ A flexibilidade do PraisonAI permite sua aplicação em uma ampla variedade de c
     *   **Funcionalidades PraisonAI Relevantes:** Memória, Ferramentas de Calendário/Email, Capacidade de aprender as preferências do usuário.
 
 Estes são apenas alguns exemplos. A natureza modular e extensível do PraisonAI permite que ele seja adaptado para muitos outros domínios e desafios. O limite é, em grande parte, a criatividade e a necessidade do desenvolvedor.
+Veja [[../07_exemplos_praticos/01_exemplo_analise_de_acoes]].

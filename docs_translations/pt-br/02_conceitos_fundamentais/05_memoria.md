@@ -182,3 +182,4 @@ flowchart TB
 Uma memória eficaz é o que permite aos agentes PraisonAI construir relacionamentos de longo prazo com os usuários, aprender com as interações e realizar tarefas complexas que exigem a lembrança de informações ao longo do tempo.
 
 O próximo conceito fundamental é **Conhecimento (Knowledge)** e como ele se relaciona com RAG (Retrieval Augmented Generation).
+Veja [[./06_conhecimento_rag]].

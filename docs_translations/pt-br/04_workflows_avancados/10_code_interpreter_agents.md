@@ -11,3 +11,4 @@ agent.start("Calculate the factorial of 5")
 ```
 
 A saída do código é repassada para o agente, permitindo ciclos de raciocínio baseados em resultados programáticos.
+Veja [[../05_ferramentas/00_visao_geral_ferramentas]].

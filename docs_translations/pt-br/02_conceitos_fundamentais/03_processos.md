@@ -161,3 +161,4 @@ Os diferentes tipos de processos em sistemas multi-agentes se baseiam em conceit
 A escolha do processo correto depende da natureza do problema a ser resolvido. Problemas simples e lineares se beneficiam de processos sequenciais, enquanto problemas mais complexos e dinâmicos podem exigir abordagens hierárquicas ou baseadas em workflows.
 
 O próximo conceito a ser explorado são as **Ferramentas (Tools)**, que dão aos agentes suas capacidades de interagir com o mundo.
+Veja [[../04_workflows_avancados/01_processos_colaboracao_agentes]].

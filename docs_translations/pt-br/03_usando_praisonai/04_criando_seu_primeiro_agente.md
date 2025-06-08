@@ -56,3 +56,4 @@ Depois de dominar este exemplo simples, explore:
 - Os notebooks em `examples/python/` para casos de uso completos.
 
 Bom aprendizado!
+Veja [[../03_usando_praisonai/05_modelos_de_agentes]].

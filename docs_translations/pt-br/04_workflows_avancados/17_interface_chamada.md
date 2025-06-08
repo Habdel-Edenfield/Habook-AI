@@ -30,3 +30,4 @@ praisonai --call --public
 ## Vídeo
 
 [Call Interface](https://www.youtube.com/watch?v=m1cwrUG2iAk)
+Veja [[../04_workflows_avancados/16_interface_voz]].

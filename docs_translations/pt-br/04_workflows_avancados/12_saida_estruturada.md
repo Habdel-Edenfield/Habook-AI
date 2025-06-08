@@ -10,3 +10,4 @@ agent.start("Summarise the benefits of solar energy")
 ```
 
 Definir um esquema de saída torna o pós-processamento muito mais simples.
+Veja [[../05_ferramentas/00_visao_geral_ferramentas]].

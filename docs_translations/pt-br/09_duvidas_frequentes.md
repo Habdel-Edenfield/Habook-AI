@@ -43,3 +43,4 @@ Abra um terminal nesse diretório e execute o arquivo desejado com `python nome_
 ## 5. Como tiro outras dúvidas ou reporto problemas?
 Consulte o repositório no GitHub e abra uma *issue* descrevendo o problema ou a sugestão. Se preferir discutir em português, sinta-se à vontade.
 
+Veja [[../01_instalacao/00_instalacao_windows]].
