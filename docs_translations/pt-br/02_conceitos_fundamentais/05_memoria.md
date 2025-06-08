@@ -112,6 +112,7 @@ Mem0 oferece armazenamento persistente de memórias e recursos opcionais de **gr
           role="Assistente Persistente",
           goal="Guardar e recuperar informações ao longo do tempo.",
           memory=mem0_handler, # Passar a instância do manipulador Mem0 configurado aqui
+
       )
       ```
 
