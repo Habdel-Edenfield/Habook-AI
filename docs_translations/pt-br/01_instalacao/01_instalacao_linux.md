@@ -45,6 +45,7 @@ praisonai --auto "Explique o que é um agente autônomo."
 Se ocorrerem erros de importação, verifique se `pipx` adicionou sua pasta de executáveis ao `PATH`.
 
 Veja [[../03_usando_praisonai/01_usando_com_python]].
+Se surgirem dificuldades durante a instalação, confira [[../08_contribuindo_e_desenvolvimento/02_debug_e_boas_praticas]] para dicas de depuração.
 
 ## Exercícios
 
