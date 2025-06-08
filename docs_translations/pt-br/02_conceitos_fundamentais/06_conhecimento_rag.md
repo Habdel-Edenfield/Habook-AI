@@ -134,3 +134,4 @@ Este é um caso de uso específico do RAG. O agente é configurado para usar um 
 A capacidade de integrar conhecimento externo através de RAG torna os agentes PraisonAI significativamente mais poderosos, permitindo que eles operem com informações específicas do domínio, atualizadas e verificáveis.
 
 Isso conclui nossa exploração dos conceitos fundamentais! A seguir, veremos como usar o PraisonAI na prática.
+Veja [[../05_ferramentas/00_visao_geral_ferramentas]].

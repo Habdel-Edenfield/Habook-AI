@@ -29,3 +29,4 @@ python3 -m praisonai realtime
 ## Vídeo
 
 [Realtime Voice Interface](https://www.youtube.com/watch?v=frRHfevTCSw)
+Veja [[../04_workflows_avancados/15_interfaces_interativas]].

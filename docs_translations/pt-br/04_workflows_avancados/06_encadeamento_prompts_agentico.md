@@ -172,3 +172,4 @@ Se a saída não passar pelo "gate", o workflow pode terminar, tentar a etapa an
 O Encadeamento de Prompts Agêntico é uma técnica versátil e poderosa, fundamental para construir aplicações LLM robustas e capazes de realizar tarefas complexas em múltiplas etapas.
 
 A seguir, exploraremos o padrão **Avaliador-Otimizador Agêntico (Agentic Evaluator Optimizer)**.
+Veja [[../05_ferramentas/00_visao_geral_ferramentas]].

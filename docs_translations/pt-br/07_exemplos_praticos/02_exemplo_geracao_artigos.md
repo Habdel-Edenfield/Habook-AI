@@ -124,3 +124,4 @@ Por exemplo, a saída da tarefa `escrever_conteudo_artigo` seria o rascunho do a
 *   **Variáveis:** Permitem parametrizar o processo para diferentes tópicos ou requisitos de artigo.
 
 Este exemplo illustra como um processo criativo, como a escrita de um artigo, pode ser decomposto e automatizado com a colaboração de múltiplos agentes especializados no PraisonAI. A qualidade do resultado final dependerá significativamente da clareza dos `goals`, `instructions` e `expected_output` de cada agente e tarefa.
+Veja [[../04_workflows_avancados/08_agentes_repetitivos]].

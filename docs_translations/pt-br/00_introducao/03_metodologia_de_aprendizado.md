@@ -31,3 +31,4 @@ A documentação foi pensada para que cada módulo dependa do anterior. Se algum
 Após dominar esta metodologia, avance para o módulo de **Instalação** e siga a sequência sugerida no README principal.
 
 Bom estudo!
+Veja [[../03_usando_praisonai/04_criando_seu_primeiro_agente]].

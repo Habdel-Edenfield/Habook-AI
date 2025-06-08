@@ -135,3 +135,4 @@ python single-agent.py
 4. Explore e modifique os scripts para entender como cada agente opera.
 
 Com essas bases, você pode combinar os agentes ou adaptá-los para criar soluções personalizadas no PraisonAI.
+Veja [[../03_usando_praisonai/06_configuracoes_yaml]].

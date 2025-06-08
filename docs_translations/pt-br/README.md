@@ -43,3 +43,4 @@ Boa sorte e bons estudos!
 * **[Interfaces Interativas](04_workflows_avancados/15_interfaces_interativas.md):** Introduz as interfaces gráficas (UI, Chat e Code) para demonstrar agentes.
 * **[Interface de Voz](04_workflows_avancados/16_interface_voz.md):** Permite conversar em tempo real com microfone e alto-falantes.
 * **[Interface de Chamada](04_workflows_avancados/17_interface_chamada.md):** Mostra como integrar o agente a ligações via Twilio.
+Veja [[../02_conceitos_fundamentais/06_conhecimento_rag]].

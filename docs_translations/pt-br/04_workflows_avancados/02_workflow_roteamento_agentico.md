@@ -106,3 +106,4 @@ A implementação de um Roteador Agêntico no PraisonAI pode ser feita de alguma
 O Roteamento Agêntico é uma técnica poderosa para construir sistemas de IA mais eficientes, especializados e econômicos. Ao permitir que seu sistema escolha dinamicamente a melhor "ferramenta" (neste caso, o melhor LLM ou agente) para o trabalho, você pode alcançar resultados significativamente melhores.
 
 A seguir, exploraremos o padrão **Agentic Orchestrator Worker**.
+Veja [[../05_ferramentas/00_visao_geral_ferramentas]].

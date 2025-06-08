@@ -138,3 +138,4 @@ Este ciclo permite que os LLMs "usem" ferramentas de forma segura e estruturada,
 O PraisonAI facilita esse processo, seja usando suas ferramentas embutidas ou permitindo a integração suave de ferramentas personalizadas. Ao definir agentes, você simplesmente os equipa com as ferramentas necessárias, e o PraisonAI, em conjunto com o LLM, gerencia a lógica de quando e como essas ferramentas são chamadas.
 
 A capacidade de estender agentes com ferramentas customizadas é o que permite adaptar o PraisonAI a praticamente qualquer domínio ou caso de uso específico, tornando-o uma plataforma verdadeiramente versátil para a construção de aplicações de IA.
+Veja [[../02_conceitos_fundamentais/06_conhecimento_rag]].

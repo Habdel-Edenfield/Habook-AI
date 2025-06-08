@@ -31,3 +31,4 @@ tools:
 ```
 
 Esse padrão ajuda a garantir respostas numéricas corretas e detalhadas. É útil para automação de planilhas, cálculos estatísticos e outras tarefas que exigem precisão.
+Veja [[../05_ferramentas/00_visao_geral_ferramentas]].

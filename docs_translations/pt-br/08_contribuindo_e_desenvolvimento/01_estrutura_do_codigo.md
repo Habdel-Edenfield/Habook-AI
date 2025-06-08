@@ -17,3 +17,4 @@ Na pasta `src/praisonai` você encontra exemplos de YAML prontos (citados no mó
 Além disso, o script `inc/config.py` possui a função `generate_config`, utilizada para criar `config.yaml` com parâmetros de treinamento.
 
 Conhecer essa estrutura ajuda a localizar facilmente onde adicionar novos agentes, ferramentas ou integrações.
+Veja [[../03_usando_praisonai/07_importes_e_funcoes_essenciais]].

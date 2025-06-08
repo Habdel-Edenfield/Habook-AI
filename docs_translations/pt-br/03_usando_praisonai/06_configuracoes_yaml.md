@@ -44,3 +44,4 @@ praisonai caminho/do/arquivo.yaml
 ```
 
 Isso carregará as configurações e iniciará o fluxo definido.
+Veja [[../04_workflows_avancados/05_paralelizacao_agentica]].

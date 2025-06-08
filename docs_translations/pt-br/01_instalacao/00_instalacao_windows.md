@@ -199,3 +199,4 @@ praisonai --auto "Conte uma piada curta sobre programadores"
     *   **Solução:** Use ambientes virtuais para isolar as dependências de cada projeto. Comandos como `pip freeze > requirements.txt` e `pip install -r requirements.txt` ajudam a gerenciar dependências.
 
 Com este guia, você deve ser capaz de instalar o PraisonAI em seu sistema Windows e começar sua jornada no desenvolvimento de agentes de IA!
+Veja [[../03_usando_praisonai/01_usando_com_python]].

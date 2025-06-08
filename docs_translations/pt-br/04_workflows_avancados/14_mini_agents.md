@@ -10,3 +10,4 @@ agent.start("How are you?")
 ```
 
 São úteis quando se deseja um comportamento muito pontual sem a complexidade de um workflow completo.
+Veja [[../05_ferramentas/00_visao_geral_ferramentas]].

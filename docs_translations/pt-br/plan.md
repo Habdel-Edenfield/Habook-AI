@@ -54,3 +54,4 @@ Este arquivo resume os módulos já existentes na documentação em `docs/pt-br`
 
 
 Este plano deve ser atualizado sempre que novos módulos ou seções forem criados.
+Veja [[README]].

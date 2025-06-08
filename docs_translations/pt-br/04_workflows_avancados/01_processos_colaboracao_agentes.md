@@ -66,3 +66,4 @@ O `README.md` principal do PraisonAI ilustra vários desses padrões:
 *   **Repetitive Agents:** Agentes que lidam com tarefas repetitivas em loop.
 
 Nos próximos tópicos deste módulo, detalharemos cada um desses padrões de workflow agêntico, mostrando como eles podem ser implementados ou conceitualizados dentro do PraisonAI, aproveitando os processos de colaboração que revisitamos aqui. Entender bem os processos sequencial, hierárquico e a flexibilidade dos workflows customizados é o primeiro passo para dominar essas técnicas avançadas.
+Veja [[../05_ferramentas/00_visao_geral_ferramentas]].

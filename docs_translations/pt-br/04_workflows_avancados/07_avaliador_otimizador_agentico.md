@@ -158,3 +158,4 @@ else:
 O padrão Avaliador-Otimizador Agêntico é uma técnica poderosa para alcançar resultados de alta qualidade e para tarefas que se beneficiam de um processo de refinamento iterativo. O PraisonAI, com sua capacidade de orquestrar múltiplos agentes e workflows, está bem posicionado para implementar este padrão.
 
 A seguir, veremos os **Agentes Repetitivos (Repetitive Agents)**.
+Veja [[../05_ferramentas/00_visao_geral_ferramentas]].

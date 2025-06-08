@@ -63,6 +63,9 @@ Real end‑to‑end tests require API keys. Review `TESTING_GUIDE.md` for enviro
 
 New Portuguese lessons should be placed in the appropriate numbered folder under `docs_translations/pt-br`. Update `docs_translations/pt-br/README.md` to keep the index current. When expanding existing material, incorpore detalhes e tecnologias recentes (2024/2025) para ampliar o entendimento do usuário, conforme o plano em `docs_translations/pt-br/plan.md`.
 
+
+## Link Style
+Use Obsidian-style wiki links (`[[path/to/page]]`) when referencing other lessons for easier navigation.
 ## Open Improvements
 
 The documentation mentions interfaces (chat/code/voice/call) and integration with external tools (Mem0, Crawl4AI). Check `docs_translations/pt-br/plan.md` for pending sections. Missing pages can be created following the existing structure.

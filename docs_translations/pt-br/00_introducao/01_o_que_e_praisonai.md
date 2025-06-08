@@ -154,3 +154,4 @@ flowchart TB
 > Os logos originais do PraisonAI (light/dark) não estão presentes neste repositório. Se desejar usá-los, você precisará baixá-los do repositório original ou da documentação oficial e colocá-los na pasta \`docs/pt-br/recursos/\`. As referências de imagem neste arquivo foram ajustadas para \`../recursos/logo_light.png\` e \`../recursos/logo_dark.png\`.
 
 Este arquivo serve como uma introdução geral ao PraisonAI. Nos próximos tópicos, detalharemos cada um desses recursos e conceitos.
+Veja [[../02_conceitos_fundamentais/01_agentes]].

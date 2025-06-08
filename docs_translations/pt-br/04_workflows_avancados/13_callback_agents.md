@@ -13,3 +13,4 @@ agent.start("Tell me a joke")
 ```
 
 Use callbacks para registro, métricas ou integrações extras.
+Veja [[../05_ferramentas/00_visao_geral_ferramentas]].

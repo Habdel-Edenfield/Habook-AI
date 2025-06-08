@@ -153,3 +153,4 @@ Uma vez que o provedor está configurado através das variáveis de ambiente, vo
 *   **Nomes dos Modelos:** Os nomes exatos dos modelos (`gpt-3.5-turbo`, `llama3:latest`, `mixtral-8x7b-32768`, etc.) devem corresponder ao que o provedor espera.
 
 A capacidade do PraisonAI de se integrar com uma ampla gama de LLMs é uma vantagem significativa, permitindo que você adapte seus agentes às melhores ferramentas de linguagem disponíveis para cada tarefa.
+Veja [[../03_usando_praisonai/01_usando_com_python]].

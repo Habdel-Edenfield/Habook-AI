@@ -122,3 +122,4 @@ A implementação de agentes repetitivos no PraisonAI pode ser feita de várias 
 Os Agentes Repetitivos são um padrão essencial para automatizar tarefas que precisam ser aplicadas a múltiplos conjuntos de dados ou executadas de forma contínua. O PraisonAI fornece a flexibilidade para implementar este padrão, seja através de loops de controle externos em Python ou potencialmente através de configurações de workflow mais avançadas.
 
 Com este tópico, concluímos a exploração dos principais padrões de Workflows Avançados ilustrados no PraisonAI!
+Veja [[../05_ferramentas/00_visao_geral_ferramentas]].
