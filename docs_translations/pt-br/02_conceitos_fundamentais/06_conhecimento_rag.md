@@ -115,6 +115,15 @@ A implementação geralmente envolve:
 
 Este é um caso de uso específico do RAG. O agente é configurado para usar um ou mais arquivos PDF como sua base de conhecimento. O PraisonAI simplifica a criação desses agentes, provavelmente lidando com o parsing do PDF, chunking, embedding e o fluxo RAG nos bastidores.
 
+#### Configurando Chat com PDF
+
+1. **Conversão e Fragmentação de PDFs:** Converta seus arquivos PDF em texto e divida o conteúdo em *chunks* menores.
+2. **Geração de embeddings para cada chunk:** Utilize seu modelo de embeddings preferido e armazene os vetores em um banco vetorial.
+3. **Configuração do Vector DB no YAML ou código Python:** Defina a base vetorial no arquivo YAML do agente ou configure-a diretamente em seu script.
+4. **Execução de um agente RAG para responder a perguntas sobre o PDF:** Com a base de conhecimento carregada, execute o agente para realizar consultas.
+
+> Para implementações completas, consulte os exemplos em `examples/python`, como `concepts/rag-agents.py` e `concepts/knowledge-agents.py`.
+
 ## Fundamentos por Trás
 
 *   **Recuperação de Informação (Information Retrieval):** A ciência de buscar informações em grandes coleções de dados.
