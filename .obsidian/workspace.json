@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "53f1ede9277952a8",
+        "id": "a7453c1ab92577ff",
         "type": "tabs",
         "children": [
           {
-            "id": "43708799b797e934",
+            "id": "9daca774e467f6bb",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -161,8 +161,9 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "43708799b797e934",
+  "active": "9daca774e467f6bb",
   "lastOpenFiles": [
+    "docs_translations/pt-br/05_ferramentas/00_visao_geral_ferramentas.md",
     "docs_translations/pt-br/01_instalacao/00_instalacao_windows.md",
     "docs_translations/pt-br/05_ferramentas/02_ferramentas_memorias_avancadas.md",
     "docs_translations/pt-br/03_usando_praisonai/08_como_funcionam_imports.md",

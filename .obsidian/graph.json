@@ -4,30 +4,27 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": false,
+  "showOrphans": true,
   "collapse-color-groups": true,
   "colorGroups": [
-    { "query": "path:\"docs_translations/pt-br/00_introducao\"", "color": "#ff6666", "name": "Introdução" },
-    { "query": "path:\"docs_translations/pt-br/01_instalacao\"", "color": "#6fa8dc", "name": "Instalação" },
-    { "query": "path:\"docs_translations/pt-br/02_conceitos_fundamentais\"", "color": "#93c47d", "name": "Conceitos" },
-    { "query": "path:\"docs_translations/pt-br/03_usando_praisonai\"", "color": "#e69138", "name": "Usando PraisonAI" },
-    { "query": "path:\"docs_translations/pt-br/04_workflows_avancados\"", "color": "#8e7cc3", "name": "Workflows Avançados" },
-    { "query": "path:\"docs_translations/pt-br/05_ferramentas\"", "color": "#ffd966", "name": "Ferramentas" },
-    { "query": "path:\"docs_translations/pt-br/06_modelos_llm\"", "color": "#76a5af", "name": "Modelos LLM" },
-    { "query": "path:\"docs_translations/pt-br/07_exemplos_praticos\"", "color": "#c27ba0", "name": "Exemplos" },
-    { "query": "path:\"docs_translations/pt-br/08_contribuindo_e_desenvolvimento\"", "color": "#a64d79", "name": "Contribuindo" },
-    { "query": "path:\"docs_translations/pt-br/09_duvidas_frequentes.md\"", "color": "#6aa84f", "name": "FAQ" }
+    {
+      "query": "path:docs_translations/pt-br  ",
+      "color": {
+        "a": 1,
+        "rgb": 9546227
+      }
+    }
   ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1.04427083333333,
-  "lineSizeMultiplier": 1,
+  "textFadeMultiplier": -0.9,
+  "nodeSizeMultiplier": 0.7890625,
+  "lineSizeMultiplier": 0.9421875,
   "collapse-forces": false,
-  "centerStrength": 0.416666666666667,
-  "repelStrength": 13.125,
+  "centerStrength": 0.588541666666667,
+  "repelStrength": 15.9375,
   "linkStrength": 1,
-  "linkDistance": 106,
-  "scale": 0.25883865621816304,
+  "linkDistance": 30,
+  "scale": 0.18462326225858167,
   "close": false
 }
