@@ -17,6 +17,7 @@ Navegue pelos módulos à esquerda para começar sua jornada de aprendizado. Cad
 *   **Guia Rápido: Criando Seu Primeiro Agente:** Passo a passo para colocar um agente em funcionamento.
 *   **Modelos de Agentes:** Visão geral dos agentes especializados disponíveis nos exemplos.
 *   **[[03_usando_praisonai/06_configuracoes_yaml.md|Configurações com YAML]]:** Como definir agentes e tarefas de forma declarativa.
+*   **[[03_usando_praisonai/08_como_funcionam_imports.md|Como Funcionam os Imports]]:** Estratégias de importação e dependências.
 *   **Workflows Avançados:** Explore as capacidades de múltiplos agentes.
     *   **Agentes Multimodais**
     *   **Code Interpreter Agents**

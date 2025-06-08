@@ -20,7 +20,7 @@ The PT‑BR documentation is split into numbered modules:
 1. **Introdução** – Visão geral e metodologia de aprendizado.
 2. **Instalação** – Passos para instalar e configurar variáveis de ambiente.
 3. **Conceitos Fundamentais** – Agentes, tarefas, ferramentas, processos, memória e RAG.
-4. **Usando o PraisonAI** – Guias Python/YAML/JS e criação do primeiro agente.
+4. **Usando o PraisonAI** – Guias Python/YAML/JS e criação do primeiro agente. Inclui a nova lição "Como Funcionam os Imports" ([[docs_translations/pt-br/03_usando_praisonai/08_como_funcionam_imports.md]]).
 5. **Workflows Avançados** – Colaboração, roteamento, agentes autônomos, multimodais, etc.
 6. **Ferramentas** – Como utilizar e criar ferramentas.
 7. **Modelos LLM** – Configuração de diferentes provedores.
