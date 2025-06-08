@@ -32,6 +32,7 @@ Navegue pelos módulos à esquerda para começar sua jornada de aprendizado. Cad
 *   **Exemplos Práticos:** Estudos de caso detalhados.
 *   **Contribuindo e Desenvolvimento:** Para quem quer ir além.
     *   **Entendendo a Estrutura do Código**
+    *   **Debug e Boas Práticas**
 *   **Dúvidas Frequentes:** Respostas rápidas para problemas comuns.
 
 Boa sorte e bons estudos!
