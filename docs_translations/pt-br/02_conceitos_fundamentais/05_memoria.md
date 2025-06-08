@@ -71,10 +71,66 @@ A implementação específica pode variar dependendo da configuração e dos com
           enabled: true
           type: mem0 # ou 'vector_db', 'short_term_default'
           # config: # Configurações específicas para o tipo de memória
-          #   api_key: "sua_chave_mem0_aqui"
-          #   user_id: "usuario123"
+        #   api_key: "sua_chave_mem0_aqui"
+        #   user_id: "usuario123"
         # ...
     ```
+
+### Usando Mem0
+
+Mem0 oferece armazenamento persistente de memórias e recursos opcionais de **graph memory**. Para utilizá-lo você precisa:
+
+1.  **Criar uma conta e gerar a chave de API**  
+    Acesse [mem0.ai](https://mem0.ai/) e registre-se. No painel do serviço, crie uma chave de API que será usada para autenticação. Consulte também a [documentação oficial do Mem0](https://docs.mem0.ai/) para instruções detalhadas.
+
+2.  **Definir as variáveis de ambiente necessárias**
+    ```bash
+    export MEM0_API_KEY="sua_chave_mem0"
+    # export MEM0_ORG_ID="id_da_org"        # opcional
+    # export MEM0_PROJECT_ID="id_do_projeto" # opcional
+    ```
+
+3.  **Configurar o `long_term_memory_handler`**
+    - **Em Python:**
+      ```python
+      from praisonaiagents import Agent
+      from praisonaiagents.memory import Memory
+      import os
+
+      mem0_handler = Memory(
+          config={
+              "provider": "mem0",
+              "config": {
+                  "api_key": os.getenv("MEM0_API_KEY"),
+                  # "org_id": os.getenv("MEM0_ORG_ID"),
+                  # "project_id": os.getenv("MEM0_PROJECT_ID")
+              }
+          }
+      )
+
+      agente_com_mem0 = Agent(
+          role="Assistente Persistente",
+          goal="Guardar e recuperar informações ao longo do tempo.",
+          memory=True,
+          long_term_memory_handler=mem0_handler,
+      )
+      ```
+
+    - **Em YAML:**
+      ```yaml
+      roles:
+        assistente_persistente:
+          role: Assistente Persistente
+          goal: Guardar informações ao longo do tempo.
+          memory:
+            enabled: true
+            long_term_memory_handler:
+              provider: mem0
+              config:
+                api_key: ${MEM0_API_KEY}
+                # org_id: ${MEM0_ORG_ID}
+                # project_id: ${MEM0_PROJECT_ID}
+      ```
 
 ### O Diagrama "AI Agents with Memory" do README
 
