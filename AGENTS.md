@@ -61,7 +61,12 @@ Real end‑to‑end tests require API keys. Review `TESTING_GUIDE.md` for enviro
 
 ## Adding Documentation
 
-New Portuguese lessons should be placed in the appropriate numbered folder under `docs_translations/pt-br`. Update `docs_translations/pt-br/README.md` to keep the index current.
+New Portuguese lessons should be placed in the appropriate numbered folder under `docs_translations/pt-br`. Update `docs_translations/pt-br/README.md` to keep the index current. When expanding existing material, incorpore detalhes e tecnologias recentes (2024/2025) para ampliar o entendimento do usuário, conforme o plano em `docs_translations/pt-br/plan.md`.
+
+Use wiki‑style crosslinks (`[[path/to/file.md]]`) whenever you reference another
+lesson so navigation stays consistent in Obsidian. Installation guides for
+Windows, Linux and macOS must remain sincronizadas e conter as mesmas
+recomendações sobre Python 3.11+, `pipx` e modelos locais.
 
 ## Open Improvements
 

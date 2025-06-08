@@ -1,6 +1,6 @@
 # Guia de Instalação Local (Windows)
 
-Este guia detalha como instalar o framework PraisonAI em um ambiente Windows, permitindo que você comece a criar e executar seus próprios agentes de IA.
+Este guia detalha como instalar o framework PraisonAI em um ambiente Windows, permitindo que você comece a criar e executar seus próprios agentes de IA. Para instruções em outros sistemas operacionais consulte [[01_instalacao/01_instalacao_linux.md]] e [[01_instalacao/02_instalacao_macos.md]].
 
 ## Pré-requisitos
 
@@ -79,10 +79,25 @@ Esta é a forma recomendada para a maioria dos usuários que desejam utilizar o 
 
 *   **`praisonai` (Pacote completo com CLI e modo "No Code"):**
     Se você quer a experiência completa, incluindo a interface de linha de comando (CLI) para executar arquivos YAML e o modo automático.
-    ```bash
+```bash
     pip install praisonai
-    ```
+```
     Este pacote geralmente inclui `praisonaiagents` como dependência.
+
+#### Recursos adicionais (2024/2025)
+
+As versões mais recentes do PraisonAI tiram proveito de aprimoramentos do **Python 3.11+**,
+portanto mantenha seu interpretador atualizado para ganhar desempenho e compatibilidade.
+
+Além do `pip`, considere usar **`pipx`** para instalar o `praisonai` de forma isolada
+(`pipx install praisonai`). Isso facilita o gerenciamento de versões da CLI sem poluir
+seu ambiente principal.
+
+Para testes com modelos locais ou de código aberto, como os fornecidos pelo **Ollama** ou
+**LM Studio**, defina `OPENAI_BASE_URL` apontando para o servidor local e especifique
+`OPENAI_MODEL_NAME` com o modelo desejado (por exemplo, `llama3:latest`). Se você dispõe
+de GPU, bibliotecas atualizadas como **PyTorch 2.2** e **TensorRT** ajudam a acelerar a
+inferência em 2025.
 
 ### 2. Para Desenvolvedores (Trabalhando com o Código Fonte)
 
@@ -183,4 +198,4 @@ praisonai --auto "Conte uma piada curta sobre programadores"
     *   **Causa:** Versões incompatíveis de pacotes.
     *   **Solução:** Use ambientes virtuais para isolar as dependências de cada projeto. Comandos como `pip freeze > requirements.txt` e `pip install -r requirements.txt` ajudam a gerenciar dependências.
 
-Com este guia, você deve ser capaz de instalar o PraisonAI em seu sistema Windows e começar sua jornada no desenvolvimento de agentes de IA!
+Com este guia, você deve ser capaz de instalar o PraisonAI em seu sistema Windows e começar sua jornada no desenvolvimento de agentes de IA! Para entender melhor o funcionamento dos agentes, continue no módulo [[02_conceitos_fundamentais/01_agentes.md]].
